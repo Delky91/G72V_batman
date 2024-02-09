@@ -19,7 +19,7 @@
 	</head>
 	<body data-bs-theme="dark">
 		<!-- NAVBAR -->
-		<nav class="navbar bg-body-tertiary">
+		<nav class="navbar bg-body-tertiary mb-5">
 			<div class="container-fluid">
 				<a
 					class="navbar-brand"
@@ -37,7 +37,7 @@
 
 		<!-- Header -->
 		<!-- foto de batman a la izq, y a la derecha un nombre un eslogan -->
-		<header class="container mt-5">
+		<header class="container my-5">
 			<div class="row">
 				<div class="col-6 text-center">
 					<img
@@ -51,7 +51,119 @@
 				</div>
 			</div>
 		</header>
-		<hr />
+		<hr class="container my-5" />
+		<!-- Animales -->
+		<section
+			id="carousel"
+			class="container overflow-hidden">
+			<div
+				id="carouselExampleRide"
+				class="carousel slide"
+				data-bs-ride="true">
+				<div class="carousel-inner text-center container">
+					<div class="carousel-item active">
+						<img
+							src="assets/img/cat.png"
+							class=""
+							alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img
+							src="assets/img/cow.png"
+							class=""
+							alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img
+							src="assets/img/dog.png"
+							class=""
+							alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img
+							src="assets/img/universidad-1.jpeg"
+							class=""
+							alt="..." />
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleRide"
+					data-bs-slide="prev">
+					<span
+						class="carousel-control-prev-icon"
+						aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleRide"
+					data-bs-slide="next">
+					<span
+						class="carousel-control-next-icon"
+						aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+		<hr class="container my-5" />
+		<!-- Donde vive batman???-->
+		<section class="container my-5">
+			<div class="row pt-5">
+				<div class="col-6">
+					<h3>Gotica</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+						facilis dolore aut laboriosam veritatis cupiditate animi voluptas iure
+						amet rem doloremque fuga illum facere aperiam, quod tempore! Hic,
+						dignissimos ullam?
+					</p>
+					<img
+						id="universidad-2"
+						src="assets/img/universidad-2.jpeg"
+						alt="universidad"
+						class="w-100" />
+				</div>
+				<div class="col-6">
+					<h3>Estudios</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+						facilis dolore aut laboriosam veritatis cupiditate animi voluptas iure
+						amet rem doloremque fuga illum facere aperiam, quod tempore! Hic,
+						dignissimos ullam?
+					</p>
+					<img
+						id="universidad-1"
+						src="assets/img/universidad-1.jpeg"
+						alt="universidad"
+						class="w-100" />
+				</div>
+			</div>
+		</section>
+
+		<!-- Experiencias -->
+		<section class="container-fluid bg-info-subtle py-5">
+			<div class="container">
+				<h3>Experiencias</h3>
+				<ul class="row list-unstyled">
+					<li class="col-3">Combate crimen en ciudad Gotica</li>
+					<li class="col-3">fabrica de queso casero</li>
+					<li class="col-3">CEO de su empresa Wayne company</li>
+					<li class="col-3">Productor de armas</li>
+				</ul>
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer class="container-fluid py-3">
+			<div class="container">
+				<div class="text-center">
+					<p class="m-0">© 2021 Batman</p>
+				</div>
+			</div>
+		</footer>
+
 		<!-- JS de Bootstrap -->
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
